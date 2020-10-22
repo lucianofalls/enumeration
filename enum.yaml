@@ -1,6 +1,6 @@
 components:
   schemas:
-    TesteEnum:
+    Item:
       type: string
-      description: 'Frutas description'
-      enum: [ 'Laranja' , 'Banana', 'Uva', 'Maca' ]
+      description: 'Item description'
+      enum: [ 'Item01' , 'Item02', 'Item03', 'Item04' ]
