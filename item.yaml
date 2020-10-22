@@ -1,0 +1,6 @@
+components:
+  schemas:
+    Item:
+      type: string
+      description: 'Item description'
+      enum: [ 'Item01' , 'Item02', 'Item03', 'Item04' ]
