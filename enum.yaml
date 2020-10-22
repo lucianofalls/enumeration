@@ -1,7 +1,6 @@
 components:
   schemas:
-    FinancingOfferStatus:
+    TesteEnum:
       type: string
-      description: 'Status of the financing offer'
-      enum: [ 'Draft' , 'Inclusion requested', 'Inclusion approved', 'Inclusion rejected', 'Removal requested', 'Removal approved', 'Removal rejected' ]
-    
+      description: 'Frutas description'
+      enum: [ 'Laranja' , 'Banana', 'Uva', 'Maca' ]
