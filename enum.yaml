@@ -1,0 +1,6 @@
+components:
+  schemas:
+    TesteEnum:
+      type: string
+      description: 'Frutas description'
+      enum: [ 'Laranja' , 'Banana', 'Uva', 'Maca' ]
